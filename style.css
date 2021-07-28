@@ -1,0 +1,218 @@
+/* Variable Declarations */
+:root {
+    --colorBlue: rgb(99, 109, 243);
+    --colorRed: rgb(179, 110, 110);
+    --colorWhite: rgb(255, 255, 255);
+    --colorBlack: rgb(82, 79, 79);
+  }
+  
+
+  /* Global Styling Section */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--colorWhite);
+    color: var(--colorRed);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  section {
+    width: 66%;
+    margin: auto;
+    padding: 1.4rem;
+    font-size: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--colorBlue);
+  }
+  
+  p {
+    padding: 1rem;
+  }
+  
+
+  /* Header Styling */
+  header {
+    min-height: 4rem;
+    color: var(--colorWhite);
+    background-color: var(--colorRed);
+    border-bottom: var(--colorBlue) solid 0.1rem;
+  }
+  
+  header img {
+    width: 12rem;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    padding: 0.5rem;
+  }
+
+  /* Index Page Specific Styling */
+  .family-img {
+    border: var(--colorBlue) solid 0.1rem;
+    border-radius: 2rem;
+  }
+  
+  .sale-fish img {
+    border: var(--colorBlue) solid 0.1rem;
+    border-radius: 2rem;
+  }
+  
+
+  /* Location Section Styling */
+  .locations {
+    width: 100%;
+  }
+  .location-cards {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .location {
+    width: 20%;
+    padding: 1rem;
+    margin: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colorWhite);
+    background-color: var(--colorBlue);
+    border: var(--colorRed) solid 0.1rem;
+    border-radius: 2.6rem;
+    box-shadow: rgb(0, 0, 0) 1rem 1rem 1rem;
+  }
+  
+  .location h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .location span {
+    font-weight: bold;
+  }
+  
+  .location img {
+    width: 8rem;
+  }
+  
+
+  /* Sales Table Styling */
+  table {
+    height: 10%;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colorWhite);
+    background-color: var(--colorBlue);
+    border: var(--colorRed) solid 0.2rem;
+    border: none;
+    border-collapse: initial;
+    border-radius: 1rem;
+    box-shadow: var(--colorBlack) 1rem 1rem 1rem;
+  }
+  
+  thead {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  th {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.25rem 0.5rem;
+    border-left: var(--colorRed) solid 0.05rem;
+  }
+  
+  th:first-child {
+    border: none;
+  }
+  
+  td {
+    padding: 0.2rem;
+    vertical-align: middle;
+    border-top: var(--colorRed) solid 0.05rem;
+    border-left: var(--colorRed) solid 0.05rem;
+  }
+  
+  td:first-child {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-left: none;
+  }
+  
+
+  /* Form Styling */
+  form {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: var(--colorWhite);
+    background-color: var(--colorRed);
+    font-size: 1.4rem;
+    border: var(--colorBlue) solid 0.2rem;
+    border-radius: 2.4rem;
+    box-shadow: var(--colorBlack) 1rem 1rem 1rem;
+  }
+  
+  legend {
+    padding-bottom: 1rem;
+  }
+  
+  .form-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  label {
+    float: left;
+    padding: 0.25rem 0;
+  }
+  
+  input {
+    float: right;
+    padding: 0.1rem 0;
+    margin: 0.25rem 0;
+  }
+  
+  button {
+    margin-top: 1.6rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--colorRed);
+    background-color: var(--colorWhite);
+    border: var(--colorBlue) solid 0.15rem;
+    border-radius: 1rem;
+    box-shadow: var(--colorBlack) 0.5rem 0.5rem 0.5rem;
+  }
+  
+  button:hover {
+    box-shadow: none;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
+  
+  /* Footer Styling */
+  footer {
+    color: var(--colorWhite);
+    background-color: var(--colorRed);
+    border-top: var(--colorGrey) solid 0.1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    transform: translateY(100%);
+  }
