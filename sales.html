@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sales | Pat's Salmon Cookies</title>
+  </head>
+  <body>
+    <header><h1>Estimated Daily Sales</h1></header>
+    <main class="table-main">
+      <h2>Sales Data By Location</h2>
+      <table>
+        <thead id="sales-table-hours"></thead>
+        <tbody id="sales-table"></tbody>
+        <tfoot id="global-daily-total"></tfoot>
+      </table>
+      <section class="new-location">
+        <form action="" id="add-city">
+          <fieldset>
+            <legend>Add a new location!</legend>
+            <div class="form-wrapper">
+              <div class="labels">
+                <label for="input-name">Location Name:</label>
+                <label for="input-min-cust">Minimum Customers:</label>
+                <label for="input-max-cust">Maximum Customers:</label>
+                <label for="input-avg-cookies">Average Cookies Per Customer:</label>
+              </div>
+              <div class="inputs">
+                <input id="input-name" type="text" placeholder="Location Name" required/>
+                <input id="input-min-cust" type="number" placeholder="Minimum Customers"required/>
+                <input id="input-max-cust" type="number" placeholder="Maximum Customers"required/>
+                <input id="input-avg-cookies" type="number" step=".1" placeholder="Avg Cookies Per Customer"required/>
+              </div>
+            </div>
+            <button>Add Location</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a href="https://defluxit.github.io/cookie-stand/sales">Sales</a></li>
+    </footer>
+  </body>
+    <script src="main.js"></script>
+  </body>
+</html>
